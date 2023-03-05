@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Header,Home } from './components'
 
 function App() {
   return (
-    <div className="App">
-      Tesla
+    <div className="app">
+      <Header/>
+      <Home/>
     </div>
   );
 }
