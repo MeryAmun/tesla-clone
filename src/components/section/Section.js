@@ -1,20 +1,20 @@
 import React from "react";
-import { downArrow, downArrow2 } from "../../assets";
 import { ButtonGroup,Buttons, DownArrow, ItemText, LeftButton, RightButton, Wrap } from "./styles";
+import { downArrow } from "../../assets";
 
-const Section = () => {
+const Section = ({title,description,backgroundImage,leftButtonText,rightButtonText,}) => {
   return (
-    <Wrap>
+    <Wrap backgroundImage={backgroundImage}>
       <ItemText>
-        <h1>Model S</h1>
-        <p>Other Online for Touchless Delivery</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
       </ItemText>
       <Buttons>
       <ButtonGroup>
-        <LeftButton>Custom Order</LeftButton>
-        <RightButton>Existing Inventory</RightButton>
+        <LeftButton>{leftButtonText}</LeftButton>
+        <RightButton>{rightButtonText}</RightButton>
       </ButtonGroup>
-      <DownArrow srr={downArrow}/>
+      <DownArrow src={downArrow}/>
       </Buttons>
     </Wrap>
   );
