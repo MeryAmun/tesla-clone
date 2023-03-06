@@ -2,6 +2,7 @@ import { modelY,modelX, model3,modelS,accessories,solarPanel,solarRoof  } from "
 
 export const homeSectionData = [
     {
+      id:'modelS',
       title:'Model S',
       description:'Order Online for Touchless Delivery',
       image:modelS,
@@ -9,6 +10,7 @@ export const homeSectionData = [
       rightButtonText:'Existing Inventory',
      },
       {
+        id:'modelY',
       title:'Model Y',
       description:'Order Online for Touchless Delivery',
       image:modelY,
@@ -16,6 +18,7 @@ export const homeSectionData = [
       rightButtonText:'Existing Inventory',
        },
       {
+        id:'model3',
       title:'Model 3',
       description:'Order Online for Touchless Delivery',
       image:model3,
@@ -23,6 +26,7 @@ export const homeSectionData = [
       rightButtonText:'Existing Inventory',
        },
       {
+        id:'modelX',
       title:'Model X',
       description:'Order Online for Touchless Delivery',
       image:modelX,
@@ -30,6 +34,7 @@ export const homeSectionData = [
       rightButtonText:'Existing Inventory',
        },
       {
+        id:'solarPanel',
       title:'Lowest Cost Solar Panel in America',
       description:'Money-back guarantee',
       image:solarPanel,
@@ -37,6 +42,7 @@ export const homeSectionData = [
       rightButtonText:'Learn more',
        },
       {
+        id:'solarRoof',
       title:'Solar for New Roofs',
       description:'Solar Roof Costs Less Than a New Range Rover',
       image:solarRoof,
@@ -44,6 +50,7 @@ export const homeSectionData = [
       rightButtonText:'Learn more',
        },
       {
+        id:'accessories',
       title:'Accessories',
       description:'',
       image:accessories,

@@ -5,11 +5,12 @@ import { Section } from "../index";
 import { accessories, model3, modelS, modelX, modelY, solarPanel, solarRoof } from "../../assets";
 import { homeSectionData } from "../../data/dummData";
 
+
 const Home = () => {
   return (
     <Container>
      {
-        homeSectionData.map(({title,description,image,leftButtonText,rightButtonText},index) => (
+        homeSectionData.map(({title,description,image,leftButtonText,rightButtonText,id},index) => (
             <Section 
             key={index}
             title={title}
@@ -17,6 +18,7 @@ const Home = () => {
             backgroundImage={image}
             leftButtonText={leftButtonText}
             rightButtonText={rightButtonText}
+            id={id}
             />
         ))
      }
