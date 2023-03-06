@@ -7,7 +7,7 @@ height:'100vh',
 backgroundSize:'cover',
 backgroundPosition:'center',
 backgroundRepeat:'no-repeat',
-backgroundImage:` url(${props.backgroundImage})`,
+backgroundImage:`url(${props.backgroundImage})`,
 display:'flex',
 flexDirection:'column',
 justifyContent:'space-between',
@@ -56,7 +56,8 @@ color:black;
 const DownArrow = styled.img`
 height:40px;
 width:40px;
-animation: animateDown infinite 1.5s
+animation: animateDown infinite 1.5s;
+cursor:pointer;
 `
 
 export {
